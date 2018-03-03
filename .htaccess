@@ -1,0 +1,21 @@
+##
+##------ Glitter application file ------
+##copyright 2017 (By twikor)
+##This file is a part of the Twic laboratory.For use for public.
+##
+##**main .htaccess file**
+##
+
+RewriteEngine on
+
+# make index.php the entrance file
+DirectoryIndex index.html index.php
+
+# make index.php links work
+RewriteRule ^([a-zA-Z0-9/]*)$ index.php/$1
+
+# error requests locating
+ErrorDocument 403 /error?e=403
+ErrorDocument 404 /error?e=404
+ErrorDocument 500 /error?e=500
+ErrorDocument 503 /error?e=503

@@ -1,0 +1,11 @@
+temp : error
+snip : 
+  - header
+  - navbar
+  - footer
+
+vari : 
+  title : Error
+  text : 
+    test
+    #header

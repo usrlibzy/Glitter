@@ -1,0 +1,13 @@
+temp : doc
+snip : 
+  - header
+  - navbar
+  - footer
+plug :
+  - pages-list
+
+vari : 
+  title : Twic - dev 文档
+  text : 
+    test
+    #header

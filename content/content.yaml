@@ -1,0 +1,8 @@
+temp : home
+snip : 
+  - header
+  - navbar
+  - footer
+
+vari : 
+  title : "Twic - lab"

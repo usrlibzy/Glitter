@@ -1,0 +1,11 @@
+temp : blog
+snip : 
+  - header
+  - navbar
+  - footer
+
+vari : 
+  title : Twic - dev
+  text : 
+    test
+    #header
